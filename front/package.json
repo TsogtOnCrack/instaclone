@@ -9,8 +9,7 @@
     "lint": "next lint",
     "fix": "yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
-    "fix:prettier": "prettier --write ./src",
-    "prepare": "husky install"
+    "fix:prettier": "prettier --write ./src"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",

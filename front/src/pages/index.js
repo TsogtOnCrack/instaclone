@@ -1,11 +1,11 @@
 import Header from '../components/Header';
+import {Layout} from "../layout"
 
 const Home = () => {
   return (
-    <div>
-      <Header title="Instagram Clone" />
-      {/* ... */}
-    </div>
+    <Layout>
+      
+    </Layout>
   );
 };
 

@@ -1,11 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 
-type HeaderProps = {
-  title: string;
-};
+const title = "Instagram"
 
-const Header: React.FC<HeaderProps> = ({ title }) => {
+export const Header = () => {
   return (
     <header className="fixed w-full bg-white border-b border-gray-200">
       <nav className="container mx-auto flex items-center justify-between h-16 px-6">
