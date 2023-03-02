@@ -23,6 +23,6 @@ export const createUser = async (event:APIGatewayProxyEvent): Promise<APIGateway
 
     return{
         statusCode: 200,
-        body: JSON.stringify("shee")
+        body: JSON.stringify("Just made a user. ")
     }
 }

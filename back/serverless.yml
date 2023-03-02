@@ -11,8 +11,6 @@ provider:
   region: ap-southeast-1
 
 functions:
-  function1:
-    handler: ./src/index.handler
   createUser:
     handler: ./src/users/create.createUser
     events:
